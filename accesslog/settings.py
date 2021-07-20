@@ -39,10 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'utilities.apps.MainConfig',
-    'usermanagement.apps.RegisterConfig',
-    'print.apps.HistoryConfig',
+    'utilities.apps.UtilitiesConfig',
+    'usermanagement.apps.UsermanagementConfig',
+    'print.apps.PrintConfig',
     'rest.apps.RestConfig',
+    'websockets',
 ]
 
 REST_FRAMEWORK = {

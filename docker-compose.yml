@@ -15,7 +15,7 @@ services:
     image: octoprint/octoprint
     restart: unless-stopped
     ports:
-    - 80:80
+    - 5000:5000
     volumes:
     - octoprint:/octoprint
   web:
