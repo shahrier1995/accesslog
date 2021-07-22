@@ -1,3 +1,5 @@
-from .views import init_connection
+from . import views
 
-init_connection()
+USER = "superuser"
+API_KEY = "0DA5AB1556C843C08E82012A3C8BBEAE"
+views.init_connection(API_KEY,USER)
