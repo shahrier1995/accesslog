@@ -1,5 +1,5 @@
 from . import views
 
 USER = "superuser"
-API_KEY = "0DA5AB1556C843C08E82012A3C8BBEAE"
+API_KEY = "17754A0B7EEC4402BA27DEDF0FE43EEA"
 views.init_connection(API_KEY,USER)
